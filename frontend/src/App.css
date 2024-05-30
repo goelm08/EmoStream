@@ -1,0 +1,161 @@
+/* Global styles */
+body {
+  background-color: #f4f7fa; /* Light background color for the body */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Logo styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styles */
+.App-header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #21a1f1;
+}
+
+/* Animation for logo spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* React Player styles */
+.ReactPlayer__Video {
+  border-radius: 16px; /* More rounded corners for video */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ReactPlayer__Video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styles */
+.MuiButton-root {
+  text-transform: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 10px 5px;
+}
+
+.MuiButton-outlined {
+  border-color: #61dafb;
+  color: #61dafb;
+}
+
+.MuiButton-outlined:hover {
+  background-color: rgba(97, 218, 251, 0.1);
+  border-color: #21a1f1;
+  color: #21a1f1;
+}
+
+.MuiButton-contained {
+  background-color: #61dafb;
+  color: white;
+}
+
+.MuiButton-contained:hover {
+  background-color: #21a1f1;
+  transform: translateY(-2px);
+}
+
+.MuiButton-startIcon {
+  margin-right: 8px;
+}
+
+/* Paper styles */
+.MuiPaper-root {
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container styles */
+.MuiContainer-root {
+  padding: 20px;
+}
+
+.MuiTypography-h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Box styles */
+.MuiBox-root {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 20px;
+}
+
+.MuiBox-root > .MuiBox-root {
+  padding: 20px;
+}
+
+/* Typography styles */
+.MuiTypography-body1 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Video control box */
+.video-control-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Specific styles for buttons */
+.video-button {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
